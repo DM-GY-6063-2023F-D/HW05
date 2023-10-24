@@ -38,7 +38,7 @@ function setup() {
   for (let i = 0; i < data.length; i++) {
     // add a combined datetime field
     data[i].timestamp = Date.parse(
-      `${data[i]["CRASH DATE"]} ${data[i]["CRASH TIME"]}`
+      `${data[i]["CRASH_DATE"]} ${data[i]["CRASH_TIME"]}`
     );
 
     // get min and max for crash latitude and longitude
